@@ -1,0 +1,3 @@
+C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/Stack.dir
+C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/ZERO_CHECK.dir
