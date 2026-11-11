@@ -1,3 +1,6 @@
+#include <string>
+#include <iostream>
+
 template <typename T>
 
 class GrandStack
@@ -14,7 +17,7 @@ public:
 	}
 	GrandStack (const GrandStack& other) // Copy
 	{
-		if (this->len = other.len)
+		if (this->len == other.len)
 		{
 			stack = (T*)malloc(other.len * sizeof(T));
 
@@ -26,22 +29,10 @@ public:
 			std::cout << "Len is different";
 		}
 	}
-	GrandStack(GrandStack&& other) noexcept  //Move
+	GrandStack(GrandStack&& other) noexcept: len(other.len), stack(other.stack) //move
 	{
-		if (this->len = other.len)
-		{
-
-			len = other.len;
-			for (int i = 0; i < other.len; i++)
-				stack[i] = other.stack[i];
-
-			other.len = 0;
-			other.stack = nullptr;
-		}
-		else
-		{
-			std::cout << "Len is different";
-		}
+		other.len = 0;
+		other.stack = nullptr;
 	}
 
 	//////////////
@@ -53,7 +44,7 @@ public:
 			if (this == &other)
 				return *this;
 
-			delete[] this->stack;
+			free this->stack;
 
 			len = other.len;
 			for (int i = 0; i < other.len; i++)
@@ -65,24 +56,42 @@ public:
 		}
 	}
 
-	void StackNum(const T* nums)
+	void Push(const T& value)
 	{
-		for (int i = 0; i < len; i++)
-			stack[i] = nums[i];
+		
 	}
 
-	int GetNumIndex(T n)
+	T Pop()
 	{
-		for (int i = 0; i < len; i++)
-		{
-			if(stack[i] == n)
-				return i
+		return stack[]
+	}
+
+	void PolskiList(std::string command)
+	{
+		for (char c : command)
+		{	
+			T res;
+			switch (c)
+			{
+				case '+':
+					res = Pop() + Pop();
+					Push(res);
+					break;
+				case '-':
+					res = Pop() + Pop();
+					Push(res);
+					break;
+				case '*':
+					res = Pop() * Pop();
+					Push(res);
+					break;
+				case '/':
+					if(Pop() != 0 || Pop() !=0)
+					res = Pop() / Pop();
+					Push(res);
+					break;
+			}
 		}
-	}
-
-	int PolskiList()
-	{
-		//Реализовать при помощи Switch
 	}
 
 	friend std::ostream& operator <<(std::ostream& os, const GrandStack& s)
