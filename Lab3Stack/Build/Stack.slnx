@@ -7,11 +7,11 @@
 		<BuildType Name="RelWithDebInfo"/>
 		<Platform Name="x64"/>
 	</Configurations>
-	<Project Path="Stack.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8c0332ee-988f-3ced-ab36-f09c2ddb8664">
+	<Project Path="Stack.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="efa0e024-36f5-3ffd-8a43-e6c5e0617995">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 	</Project>
 	<Folder Name="/CMakePredefinedTargets/">
-		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ae57e040-d00b-3c66-992a-6a0b8d85066e" DefaultStartup="true">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9fb720e0-c109-3c39-a07f-cb6cdeff7e95" DefaultStartup="true">
 			<BuildDependency Project="Stack.vcxproj"/>
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
@@ -19,6 +19,6 @@
 			<Build Solution="MinSizeRel|*" Project="false"/>
 			<Build Solution="RelWithDebInfo|*" Project="false"/>
 		</Project>
-		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0a5d04e9-946d-387f-9754-40e86a28f988"/>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fa996246-09e2-3172-b5aa-5285cde9411d"/>
 	</Folder>
 </Solution>

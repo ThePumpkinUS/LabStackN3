@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\89806\\desktop\\labstackn3\\lab3stack\\src\\gtest.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\89806\\desktop\\labstackn3\\lab3stack\\src\\header.hpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

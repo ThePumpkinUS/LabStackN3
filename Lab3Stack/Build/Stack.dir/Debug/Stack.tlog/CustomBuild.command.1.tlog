@@ -1,0 +1,10 @@
+^C:\USERS\89806\DESKTOP\LABSTACKN3\LAB3STACK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/89806/Desktop/LabStackN3/Lab3Stack -BC:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build --check-stamp-file C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\89806\DESKTOP\LABSTACKN3\LAB3STACK\BUILD\CMAKEFILES\F8D544490B70C766DE1CF80437EAD195\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/89806/Desktop/LabStackN3/Lab3Stack -BC:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/Stack.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

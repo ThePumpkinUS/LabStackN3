@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA0E024-36F5-3FFD-8A43-E6C5E0617995}|Stack.vcxproj|C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\header.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA0E024-36F5-3FFD-8A43-E6C5E0617995}|Stack.vcxproj|C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA0E024-36F5-3FFD-8A43-E6C5E0617995}|Stack.vcxproj|C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\gtest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\main.cpp",
+              "RelativeDocumentMoniker": "..\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\main.cpp",
+              "RelativeToolTip": "..\\src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-11T11:12:19.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gtest.cpp",
+              "DocumentMoniker": "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\gtest.cpp",
+              "RelativeDocumentMoniker": "..\\src\\gtest.cpp",
+              "ToolTip": "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\gtest.cpp",
+              "RelativeToolTip": "..\\src\\gtest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-11T11:12:08.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "header.hpp",
+              "DocumentMoniker": "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\header.hpp",
+              "RelativeDocumentMoniker": "..\\src\\header.hpp",
+              "ToolTip": "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\src\\header.hpp",
+              "RelativeToolTip": "..\\src\\header.hpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-11-11T11:12:07.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

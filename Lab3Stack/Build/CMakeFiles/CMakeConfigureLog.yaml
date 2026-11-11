@@ -4,18 +4,18 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
       - "CMakeLists.txt:5 (project)"
     message: |
-      The system is: Windows - 10.0.26200 - AMD64
+      The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
@@ -31,39 +31,31 @@ events:
     names:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
-    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -74,9 +66,9 @@ events:
       The output was:
       0
       ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.11.2026 10:08:25.
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.11.2026 14:10:47.
       
-      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
         ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
         ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
@@ -89,7 +81,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -97,13 +89,13 @@ events:
       FinalizeBuildStatus:
         ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
         ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\4.4.4\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       
       ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.58
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.06
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -111,15 +103,15 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/4.2.1/CompilerIdC/CompilerIdC.exe
+        C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/4.4.4/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
@@ -136,64 +128,48 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
-      - "C:/Program Files/Microsoft MPI/Bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Haskell/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/FPC/3.2.2/bin/i386-win32/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
@@ -210,54 +186,34 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
-      - "C:/Program Files/Microsoft MPI/Bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Haskell/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/FPC/3.2.2/bin/i386-win32/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link"
-      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
-      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
-      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
-      - "C:/Program Files/Haskell/bin/lld-link.com"
-      - "C:/Program Files/Haskell/bin/lld-link.exe"
-      - "C:/Program Files/Haskell/bin/lld-link"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/lld-link.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/lld-link.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/lld-link"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/lld-link.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/lld-link.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/lld-link"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link.com"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link.exe"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
       - "C:/Windows/System32/lld-link.com"
       - "C:/Windows/System32/lld-link.exe"
       - "C:/Windows/System32/lld-link"
@@ -273,70 +229,50 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/FPC/3.2.2/bin/i386-win32/lld-link.com"
-      - "C:/FPC/3.2.2/bin/i386-win32/lld-link.exe"
-      - "C:/FPC/3.2.2/bin/i386-win32/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/lld-link.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/lld-link.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/lld-link"
-      - "C:/Program Files/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Program Files/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Program Files/Microsoft VS Code/bin/lld-link"
-      - "C:/Program Files/nodejs/lld-link.com"
-      - "C:/Program Files/nodejs/lld-link.exe"
-      - "C:/Program Files/nodejs/lld-link"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/lld-link.com"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/lld-link.exe"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/lld-link"
-      - "C:/Program Files/PuTTY/lld-link.com"
-      - "C:/Program Files/PuTTY/lld-link.exe"
-      - "C:/Program Files/PuTTY/lld-link"
-      - "C:/Program Files/dotnet/lld-link.com"
-      - "C:/Program Files/dotnet/lld-link.exe"
-      - "C:/Program Files/dotnet/lld-link"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
@@ -353,62 +289,46 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
-      - "C:/Program Files/Microsoft MPI/Bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Haskell/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/FPC/3.2.2/bin/i386-win32/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_MT"
@@ -425,54 +345,34 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
-      - "C:/Program Files/Microsoft MPI/Bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Haskell/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/FPC/3.2.2/bin/i386-win32/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/mt.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/mt.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/mt"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/mt.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/mt.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/mt"
-      - "C:/Program Files/Microsoft MPI/Bin/mt.com"
-      - "C:/Program Files/Microsoft MPI/Bin/mt.exe"
-      - "C:/Program Files/Microsoft MPI/Bin/mt"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
-      - "C:/Program Files/Haskell/bin/mt.com"
-      - "C:/Program Files/Haskell/bin/mt.exe"
-      - "C:/Program Files/Haskell/bin/mt"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/mt.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/mt.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/mt"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/mt.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/mt.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/mt"
+      - "D:/Meta Horizon/Support/oculus-runtime/mt.com"
+      - "D:/Meta Horizon/Support/oculus-runtime/mt.exe"
+      - "D:/Meta Horizon/Support/oculus-runtime/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
       - "C:/Windows/System32/mt.com"
       - "C:/Windows/System32/mt.exe"
       - "C:/Windows/System32/mt"
@@ -488,70 +388,50 @@ events:
       - "C:/Windows/System32/OpenSSH/mt.com"
       - "C:/Windows/System32/OpenSSH/mt.exe"
       - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
       - "C:/Program Files/CMake/bin/mt.com"
       - "C:/Program Files/CMake/bin/mt.exe"
       - "C:/Program Files/CMake/bin/mt"
-      - "C:/FPC/3.2.2/bin/i386-win32/mt.com"
-      - "C:/FPC/3.2.2/bin/i386-win32/mt.exe"
-      - "C:/FPC/3.2.2/bin/i386-win32/mt"
-      - "C:/Program Files/Git/cmd/mt.com"
-      - "C:/Program Files/Git/cmd/mt.exe"
-      - "C:/Program Files/Git/cmd/mt"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/mt.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/mt.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/mt"
-      - "C:/Program Files/Microsoft VS Code/bin/mt.com"
-      - "C:/Program Files/Microsoft VS Code/bin/mt.exe"
-      - "C:/Program Files/Microsoft VS Code/bin/mt"
-      - "C:/Program Files/nodejs/mt.com"
-      - "C:/Program Files/nodejs/mt.exe"
-      - "C:/Program Files/nodejs/mt"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/mt.com"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/mt.exe"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/mt"
-      - "C:/Program Files/PuTTY/mt.com"
-      - "C:/Program Files/PuTTY/mt.exe"
-      - "C:/Program Files/PuTTY/mt"
-      - "C:/Program Files/dotnet/mt.com"
-      - "C:/Program Files/dotnet/mt.exe"
-      - "C:/Program Files/dotnet/mt"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/mt.com"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/mt.exe"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/mt"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_AR"
@@ -568,65 +448,49 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
-      - "C:/Program Files/Microsoft MPI/Bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Haskell/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/FPC/3.2.2/bin/i386-win32/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
@@ -642,39 +506,31 @@ events:
     names:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
-    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -685,9 +541,9 @@ events:
       The output was:
       0
       ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.11.2026 10:08:25.
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.11.2026 14:10:48.
       
-      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
         ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
         ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
@@ -700,7 +556,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -708,13 +564,13 @@ events:
       FinalizeBuildStatus:
         ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
         ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\4.4.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       
       ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.45
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.64
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -722,15 +578,15 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/4.2.1/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/4.4.4/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
@@ -747,54 +603,34 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
-      - "C:/Program Files/Microsoft MPI/Bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Haskell/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/FPC/3.2.2/bin/i386-win32/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/lld-link"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/lld-link"
-      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
-      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
-      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
-      - "C:/Program Files/Haskell/bin/lld-link.com"
-      - "C:/Program Files/Haskell/bin/lld-link.exe"
-      - "C:/Program Files/Haskell/bin/lld-link"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/lld-link.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/lld-link.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/lld-link"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/lld-link.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/lld-link.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/lld-link"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link.com"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link.exe"
+      - "D:/Meta Horizon/Support/oculus-runtime/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
       - "C:/Windows/System32/lld-link.com"
       - "C:/Windows/System32/lld-link.exe"
       - "C:/Windows/System32/lld-link"
@@ -810,73 +646,53 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
-      - "C:/FPC/3.2.2/bin/i386-win32/lld-link.com"
-      - "C:/FPC/3.2.2/bin/i386-win32/lld-link.exe"
-      - "C:/FPC/3.2.2/bin/i386-win32/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/lld-link.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/lld-link.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/lld-link"
-      - "C:/Program Files/Microsoft VS Code/bin/lld-link.com"
-      - "C:/Program Files/Microsoft VS Code/bin/lld-link.exe"
-      - "C:/Program Files/Microsoft VS Code/bin/lld-link"
-      - "C:/Program Files/nodejs/lld-link.com"
-      - "C:/Program Files/nodejs/lld-link.exe"
-      - "C:/Program Files/nodejs/lld-link"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/lld-link.com"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/lld-link.exe"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/lld-link"
-      - "C:/Program Files/PuTTY/lld-link.com"
-      - "C:/Program Files/PuTTY/lld-link.exe"
-      - "C:/Program Files/PuTTY/lld-link"
-      - "C:/Program Files/dotnet/lld-link.com"
-      - "C:/Program Files/dotnet/lld-link.exe"
-      - "C:/Program Files/dotnet/lld-link"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/lld-link.com"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
@@ -892,29 +708,21 @@ events:
     names:
       - "rc"
     candidate_directories:
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/"
-      - "C:/Program Files/Microsoft MPI/Bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Haskell/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/"
+      - "D:/Meta Horizon/Support/oculus-runtime/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/FPC/3.2.2/bin/i386-win32/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/"
-      - "C:/Program Files/Microsoft VS Code/bin/"
-      - "C:/Program Files/nodejs/"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -928,27 +736,15 @@ events:
       - "C:/Program Files (x86)/Stack/sbin/"
       - "C:/Program Files (x86)/Stack/"
     searched_directories:
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/rc.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/rc.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/x64/rc"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/rc.com"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/rc.exe"
-      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.1/bin/rc"
-      - "C:/Program Files/Microsoft MPI/Bin/rc.com"
-      - "C:/Program Files/Microsoft MPI/Bin/rc.exe"
-      - "C:/Program Files/Microsoft MPI/Bin/rc"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
-      - "C:/Program Files/Haskell/bin/rc.com"
-      - "C:/Program Files/Haskell/bin/rc.exe"
-      - "C:/Program Files/Haskell/bin/rc"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/rc.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/rc.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/lib/extralibs/bin/rc"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/rc.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/rc.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/bin/rc"
+      - "D:/Meta Horizon/Support/oculus-runtime/rc.com"
+      - "D:/Meta Horizon/Support/oculus-runtime/rc.exe"
+      - "D:/Meta Horizon/Support/oculus-runtime/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
       - "C:/Windows/System32/rc.com"
       - "C:/Windows/System32/rc.exe"
       - "C:/Windows/System32/rc"
@@ -964,39 +760,27 @@ events:
       - "C:/Windows/System32/OpenSSH/rc.com"
       - "C:/Windows/System32/OpenSSH/rc.exe"
       - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
       - "C:/Program Files/CMake/bin/rc.com"
       - "C:/Program Files/CMake/bin/rc.exe"
       - "C:/Program Files/CMake/bin/rc"
-      - "C:/FPC/3.2.2/bin/i386-win32/rc.com"
-      - "C:/FPC/3.2.2/bin/i386-win32/rc.exe"
-      - "C:/FPC/3.2.2/bin/i386-win32/rc"
-      - "C:/Program Files/Git/cmd/rc.com"
-      - "C:/Program Files/Git/cmd/rc.exe"
-      - "C:/Program Files/Git/cmd/rc"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/rc.com"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/rc.exe"
-      - "C:/Program Files/Haskell Platform/8.6.5/mingw/bin/rc"
-      - "C:/Program Files/Microsoft VS Code/bin/rc.com"
-      - "C:/Program Files/Microsoft VS Code/bin/rc.exe"
-      - "C:/Program Files/Microsoft VS Code/bin/rc"
-      - "C:/Program Files/nodejs/rc.com"
-      - "C:/Program Files/nodejs/rc.exe"
-      - "C:/Program Files/nodejs/rc"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/rc.com"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/rc.exe"
-      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.4.0/rc"
-      - "C:/Program Files/PuTTY/rc.com"
-      - "C:/Program Files/PuTTY/rc.exe"
-      - "C:/Program Files/PuTTY/rc"
-      - "C:/Program Files/dotnet/rc.com"
-      - "C:/Program Files/dotnet/rc.exe"
-      - "C:/Program Files/dotnet/rc"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/S25380020/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/89806/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/89806/AppData/Local/GitHubDesktop/bin/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1036,29 +820,21 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin\\x64"
-        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.1\\bin"
-        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files\\Haskell\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\lib\\extralibs\\bin"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\bin"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Meta Horizon\\Support\\oculus-runtime"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\FPC\\3.2.2\\bin\\i386-Win32"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\Haskell Platform\\8.6.5\\mingw\\bin"
-        - "C:\\Program Files\\Microsoft VS Code\\bin"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.4.0\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:\\Users\\S25380020\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\89806\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\89806\\AppData\\Local\\GitHubDesktop\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Stack"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1068,68 +844,70 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-xaiff0"
-      binary: "C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-xaiff0"
+      source: "C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-y9grqc"
+      binary: "C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-y9grqc"
     cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
+      cached: false
       stdout: |
-        Change Dir: 'C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-xaiff0'
+        Change Dir: 'C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-y9grqc'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd262.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7f6f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.11.2026 10:08:26.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.11.2026 14:10:49.
         
-        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-xaiff0\\cmTC_dd262.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-y9grqc\\cmTC_7f6f7.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-xaiff0\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_dd262.dir\\Debug\\cmTC_dd262.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-y9grqc\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_7f6f7.dir\\Debug\\cmTC_7f6f7.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_dd262.dir\\Debug\\cmTC_dd262.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_dd262.dir\\Debug\\cmTC_dd262.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_7f6f7.dir\\Debug\\cmTC_7f6f7.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7f6f7.dir\\Debug\\cmTC_7f6f7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_dd262.dir\\Debug\\\\" /Fd"cmTC_dd262.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7f6f7.dir\\Debug\\\\" /Fd"cmTC_7f6f7.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_dd262.dir\\Debug\\\\" /Fd"cmTC_dd262.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7f6f7.dir\\Debug\\\\" /Fd"cmTC_7f6f7.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-xaiff0\\Debug\\cmTC_dd262.exe" /INCREMENTAL /ILK:"cmTC_dd262.dir\\Debug\\cmTC_dd262.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-xaiff0/Debug/cmTC_dd262.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-xaiff0/Debug/cmTC_dd262.lib" /MACHINE:X64  /machine:x64 cmTC_dd262.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_dd262.vcxproj -> C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-xaiff0\\Debug\\cmTC_dd262.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-y9grqc\\Debug\\cmTC_7f6f7.exe" /INCREMENTAL /ILK:"cmTC_7f6f7.dir\\Debug\\cmTC_7f6f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-y9grqc/Debug/cmTC_7f6f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-y9grqc/Debug/cmTC_7f6f7.lib" /MACHINE:X64  /machine:x64 cmTC_7f6f7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7f6f7.vcxproj -> C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-y9grqc\\Debug\\cmTC_7f6f7.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_dd262.dir\\Debug\\cmTC_dd262.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_dd262.dir\\Debug\\cmTC_dd262.tlog\\cmTC_dd262.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-xaiff0\\cmTC_dd262.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_7f6f7.dir\\Debug\\cmTC_7f6f7.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7f6f7.dir\\Debug\\cmTC_7f6f7.tlog\\cmTC_7f6f7.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-y9grqc\\cmTC_7f6f7.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.36
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.54
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-y9grqc\\Debug\\cmTC_7f6f7.exe" /INCREMENTAL /ILK:"cmTC_7f6f7.dir\\Debug\\cmTC_7f6f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-y9grqc/Debug/cmTC_7f6f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-y9grqc/Debug/cmTC_7f6f7.lib" /MACHINE:X64  /machine:x64 cmTC_7f6f7.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -1139,80 +917,82 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.51.36257.0
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-oso1mp"
-      binary: "C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-oso1mp"
+      source: "C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-qo3vok"
+      binary: "C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-qo3vok"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
+      cached: false
       stdout: |
-        Change Dir: 'C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-oso1mp'
+        Change Dir: 'C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-qo3vok'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_91d2b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3ee8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 05.11.2026 10:08:26.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 11.11.2026 14:10:50.
         
-        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-oso1mp\\cmTC_91d2b.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3vok\\cmTC_a3ee8.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-oso1mp\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_91d2b.dir\\Debug\\cmTC_91d2b.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3vok\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_a3ee8.dir\\Debug\\cmTC_a3ee8.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_91d2b.dir\\Debug\\cmTC_91d2b.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_91d2b.dir\\Debug\\cmTC_91d2b.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_a3ee8.dir\\Debug\\cmTC_a3ee8.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_a3ee8.dir\\Debug\\cmTC_a3ee8.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_91d2b.dir\\Debug\\\\" /Fd"cmTC_91d2b.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36257 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a3ee8.dir\\Debug\\\\" /Fd"cmTC_a3ee8.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_91d2b.dir\\Debug\\\\" /Fd"cmTC_91d2b.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_a3ee8.dir\\Debug\\\\" /Fd"cmTC_a3ee8.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-oso1mp\\Debug\\cmTC_91d2b.exe" /INCREMENTAL /ILK:"cmTC_91d2b.dir\\Debug\\cmTC_91d2b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-oso1mp/Debug/cmTC_91d2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/S25380020/Desktop/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-oso1mp/Debug/cmTC_91d2b.lib" /MACHINE:X64  /machine:x64 cmTC_91d2b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_91d2b.vcxproj -> C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-oso1mp\\Debug\\cmTC_91d2b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3vok\\Debug\\cmTC_a3ee8.exe" /INCREMENTAL /ILK:"cmTC_a3ee8.dir\\Debug\\cmTC_a3ee8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-qo3vok/Debug/cmTC_a3ee8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-qo3vok/Debug/cmTC_a3ee8.lib" /MACHINE:X64  /machine:x64 cmTC_a3ee8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a3ee8.vcxproj -> C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3vok\\Debug\\cmTC_a3ee8.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_91d2b.dir\\Debug\\cmTC_91d2b.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_91d2b.dir\\Debug\\cmTC_91d2b.tlog\\cmTC_91d2b.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\S25380020\\Desktop\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-oso1mp\\cmTC_91d2b.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_a3ee8.dir\\Debug\\cmTC_a3ee8.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_a3ee8.dir\\Debug\\cmTC_a3ee8.tlog\\cmTC_a3ee8.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3vok\\cmTC_a3ee8.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.33
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.53
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\89806\\Desktop\\LabStackN3\\Lab3Stack\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qo3vok\\Debug\\cmTC_a3ee8.exe" /INCREMENTAL /ILK:"cmTC_a3ee8.dir\\Debug\\cmTC_a3ee8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-qo3vok/Debug/cmTC_a3ee8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/89806/Desktop/LabStackN3/Lab3Stack/Build/CMakeFiles/CMakeScratch/TryCompile-qo3vok/Debug/cmTC_a3ee8.lib" /MACHINE:X64  /machine:x64 cmTC_a3ee8.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -1222,12 +1002,12 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:5 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.51.36257.0
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

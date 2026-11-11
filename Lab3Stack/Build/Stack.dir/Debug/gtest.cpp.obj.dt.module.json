@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Stack.dir\\Debug\\gtest.obj",
+            "outputs": [
+                "Stack.dir\\Debug\\gtest.cpp.obj.dt.module.json",
+                "Stack.dir\\Debug\\gtest.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

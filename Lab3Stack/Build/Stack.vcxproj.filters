@@ -1,24 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\S25380020\Desktop\Lab3Stack\src\main.cpp">
+    <ClCompile Include="C:\Users\89806\Desktop\LabStackN3\Lab3Stack\src\gtest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\89806\Desktop\LabStackN3\Lab3Stack\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\S25380020\Desktop\Lab3Stack\src\header.hpp">
+    <ClInclude Include="C:\Users\89806\Desktop\LabStackN3\Lab3Stack\src\header.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\S25380020\Desktop\Lab3Stack\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\89806\Desktop\LabStackN3\Lab3Stack\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{7ADE8A91-4060-3476-B4BD-8B5BF4BB64FC}</UniqueIdentifier>
+      <UniqueIdentifier>{32E1F939-F88E-342A-AE27-AB46CA3F7E33}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{945BAA05-5B54-36FA-9BAD-3C328F645F7B}</UniqueIdentifier>
+      <UniqueIdentifier>{37F1D48F-FE07-3BA8-AB37-721D3FA4FA9F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
